@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maps with Leaflet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="leaflet-1.7.1/leaflet.css" />
+    <script src="leaflet-1.7.1/leaflet-src.js"></script>
+    <script src="leaflet-1.7.1/leaflet-providers.js"></script>
+    <script src="leaflet-1.7.1/leaflet-image.js"></script>
+</head>
+<body>
+<div id="map"></div>
+<canvas id="mapImageCanvas" width="600" height="300"></canvas>
+<button id="getLocation">Pobierz lokalizację</button>
+<button id="saveButton">Zapisz obraz i podziel na puzzle</button>
+<br>
+<canvas id="rasterMap"></canvas>
+<div id="puzzleContainer"></div>
+<canvas id="puzzleCanvas" width="600" height="300"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>

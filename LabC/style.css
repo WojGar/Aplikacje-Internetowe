@@ -1,0 +1,29 @@
+#map {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#rasterMap {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#puzzleContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    border: 1px solid black;
+}
+
+#puzzleContainer div {
+    cursor: grab;
+    border: 1px solid #ccc;
+}
+
+#puzzleCanvas {
+    border: 1px solid black;
+    margin-top: 20px;
+}
