@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+body {
+    font-family: "Emilys Candy", cursive;
+    font-size: 24px;
+    background: #fa9be8;
+    color: #4a2f58;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background: #eb5bd0;
+    padding: 20px 0;
+    border-bottom: 5px solid #d94ba5;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #d94ba5;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #5e2d67;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.8;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.left-image {
+    height: 330px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+
+.right-list {
+    flex: 1;
+    background: #f0b9e1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+    font-size: 0.9em;
+}
+
+a {
+    color: #d94ba5;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #eb5bd0;
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    background-color: #5e2d67;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 5px solid #d94ba5;
+}
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    .right-list {
+        width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+    .left-image {
+        width: 100%;
+    }
+    .right-list {
+        width: 100%;
+    }
+    p {
+        padding: 0 10px;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    .left-image {
+        height: auto;
+    }
+    p {
+        padding: 0 5px;
+    }
+}
+

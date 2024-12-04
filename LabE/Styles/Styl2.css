@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+body {
+    font-family: "Chicle", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #870714;
+    color: #333;
+    position: relative;
+}
+
+header {
+    background-color: #f02424;
+    color: #f2af8a;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+main {
+    padding: 20px;
+    background-color: #ffc9cf;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    padding-top: 400px;
+}
+
+img.left-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    width: auto;
+    border-radius: 10px;
+    border: 5px solid #f21d32;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    z-index: 10;
+}
+
+h1 {
+    font-size: 4em;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 3em;
+    color: #f7e4e6;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow:
+            2px 2px 0 black,
+            -2px -2px 0 black,
+            2px 2px 0 black,
+            -2px 2px 0 black;
+}
+
+
+.right-list {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.right-list ul {
+    list-style: none;
+    padding: 2px;
+}
+.right-list ul li {
+    position: relative; /* Umożliwia pozycjonowanie pseudo-elementu */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    padding-left: 20px; /* Odstęp z lewej dla kropki */
+    font-size: 1.5em; /* Ustawienie większego rozmiaru czcionki */
+}
+
+
+
+h3 {
+    font-size: 2.5em;
+    color: #333;
+    margin-top: 20px;
+
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+a {
+    color: #870714;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #870714;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    .right-list {
+        width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+    .left-image {
+        width: 100%;
+    }
+    .right-list {
+        width: 100%;
+    }
+    p {
+        padding: 0 10px;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    .left-image {
+        height: auto;
+    }
+    p {
+        padding: 0 5px;
+    }
+}
+
+
